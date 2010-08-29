@@ -1,0 +1,39 @@
+<object type="application/x-palm-remote" id="socketPlugin" height="1" width="1" x-palm-pass-event="true">
+  <param name="appid" value="com.protonet.sockettest">
+  <param name="exe" value="socket_plugin">
+  <!-- We don't parse any parameters in the plugin, but this is how you can send them on object creation
+  <param name="Param1" value="1">
+  <param name="Param2" value="2">
+  -->
+</object>
+<div id="main" class="palm-hasheader">
+  <div class="palm-header center" id="main-hdr">Socket Example</div>
+</div>
+<div class="palm-group">
+  <div class="palm-group-title" x-mojo-loc=''>Server Ip Address</div>
+  <div class="palm-list">
+    <div class="palm-row single">
+      <div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="true">
+        <div class="title">
+          <div x-mojo-element="TextField" id="ipField" class="ipClass" name="IpAddress"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div x-mojo-element="Button" id="ConnectBtn" class="connectClass" name="Connect"></div>  
+
+<div class="palm-group">
+  <div class="palm-group-title" x-mojo-loc=''>Received Message</div>
+  <div class="palm-list">
+    <div class="palm-row single">
+      <div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="true">
+        <div class="title">
+          <div id="status"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

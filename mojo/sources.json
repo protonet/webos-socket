@@ -1,0 +1,12 @@
+[
+    {
+        "source": "app/controllers/app-assistant.js"
+    },
+    {
+        "source": "app/models/socket.js"
+    },
+    {
+        "scenes": "socket",
+        "source": "app/controllers/socket-assistant.js"
+    }
+]

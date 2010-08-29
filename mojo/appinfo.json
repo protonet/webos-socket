@@ -1,0 +1,9 @@
+{
+	"title": "Socket test",
+	"type": "web",
+	"main": "index.html",
+	"id": "com.protonet.sockettest",
+	"version": "1.0.0",
+	"vendor": "Protonet.info",
+	"plug-ins": true
+}

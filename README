@@ -1,0 +1,3 @@
+This is a Hybrid webOS socket test application.
+Since the javascript interface by itself does not support 
+opening sockets
